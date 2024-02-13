@@ -1,0 +1,171 @@
+.home {
+}
+
+.home1 {
+  width: 100%;
+  height: auto;
+  background-color: #14959c;
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+}
+
+.home2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  cursor: pointer;
+}
+
+.home3 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.home3 h6,
+span {
+  fontfamily: "Mulish, sans-serif";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30.12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.home3 span {
+  color: #ffc70e;
+}
+
+.home4 {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.home5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 100px;
+}
+
+.home6 h2 {
+  fontfamily: "Inter, sans-serif";
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 65.35px;
+  color: #ffffff;
+}
+
+.home7 {
+  width: auto;
+  height: 101px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.home8 {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  gap: 30px;
+}
+
+.home8 span {
+  fontfamily: "Inter, sans-serif";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33.89px;
+  color: #000000;
+}
+
+.home9 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-right: 30px;
+  padding-left: 40px;
+}
+
+.home9 input {
+  border: none;
+  outline: none;
+  width: 500px;
+  height: 101px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33.89px;
+  color: #000000;
+}
+
+.home9 input::placeholder {
+  fontfamily: "Inter, sans-serif";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33.89px;
+  color: #949090;
+}
+
+.vertical-line {
+  border-left: 3px solid #14939a;
+  height: 90px;
+}
+
+.home10 {
+  width: 90%;
+  margin: auto;
+}
+
+.home11 h2 {
+  fontfamily: "Inter, sans-serif";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33.89px;
+  color: #000000;
+  text-align: center;
+}
+
+.home12 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.home13 {
+  width: calc(20% - 10px); 
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+  
+
+.home13 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.home13 h5 {
+  fontfamily: "Inter, sans-serif";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26.63px;
+  text-align: center;
+  color: #000000;
+}
