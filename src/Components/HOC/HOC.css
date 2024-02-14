@@ -1,0 +1,38 @@
+/* .component_style {
+  display: flex;
+  gap: 30px;
+  background: #eeeeee;
+  min-height: 100vh;
+}
+
+.child_component {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.child_component_full {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+} */
+
+
+.hoc{
+  display: flex;
+  gap: 30px;
+  background: #FFFFFF;
+  min-height: 100vh;
+}
+
+
+
+
+.hoc3{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+}
+

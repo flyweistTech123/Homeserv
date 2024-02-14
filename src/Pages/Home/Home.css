@@ -143,7 +143,7 @@ span {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .home13 {
@@ -168,4 +168,134 @@ span {
   line-height: 26.63px;
   text-align: center;
   color: #000000;
+}
+
+
+.home14{
+  margin-top: 100px;
+}
+
+.home14 h2{
+  fontfamily: "Inter, sans-serif";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33.89px;
+  color: #000000;
+  text-align: center;
+}
+
+.home15{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home16{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-top: 80px;
+}
+
+.home16 span:nth-child(1){
+  fontfamily: "Inter, sans-serif";
+  font-weight: 800;
+  font-size: 50px;
+  color: #14939A;
+}
+
+.home16 span:nth-child(2){
+  fontfamily: "Inter, sans-serif";
+  font-weight: 500;
+  font-size: 24px;
+  color: #121212;
+}
+
+
+.home17{
+  margin-top: 150px;
+}
+
+
+.home18{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.home18 h2{
+  fontfamily: "Inter, sans-serif";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33.89px;
+  color: #000000;
+  text-align: center;
+}
+
+
+
+
+
+.home19 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.home199{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 80px;
+}
+.home20 {
+  width: 69px;
+  height: 69.01px;
+  border-radius: 50%;
+  background-color: #ffffff; 
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.home20::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  box-shadow: inset 0px 5px 10px 1px rgba(0, 0, 0, 0.3); /* Apply the inner shadow */
+  border-radius: 50%;
+}
+
+
+.home21{
+  width: calc(20% - 80px); 
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home21 h6{
+  fontfamily: "Mulish, sans-serif";
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15.06px;
+  color: #282929;
+  text-align: center;
+}
+
+
+.home22{
+  margin-top: 100px;
 }

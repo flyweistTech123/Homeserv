@@ -1,0 +1,95 @@
+/* .sidebar{
+    height: 100vh;
+    width: 120px;
+    background-color: #1A9FB2;
+    color: #fff;
+    padding-top: 20px;
+    position: fixed;
+} */
+
+.sidebar {
+    width: 120px;
+    background-color: #14959C;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1EAEB6;
+    margin-bottom: 35px;
+    cursor: pointer;
+    gap: 5px;
+    fontfamily: "Mulish, sans-serif";
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 12.55px;
+}
+
+.sidebar2{
+    fontfamily: "Mulish, sans-serif";
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 12.55px;
+    color: #ffffff;
+}
+
+.sidebar ul li.active {
+    color: #ffffff;
+}
+
+.sidebar ul li div{
+    background-color: #1EAEB6;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar ul li div{
+    background-color: #1EAEB6;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar ul li.active div {
+    background-color: #FFFFFF;
+}
+
+.sidebar ul li div svg {
+    color: #FFFFFF;
+}
+
+.sidebar ul li.active div svg {
+    color: #14959C;
+}
+
+.sidenar4{
+    position: relative;
+}
+
+
+.sidebar3{
+    font-weight: 900;
+    font-size: 30px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 510px;
+    cursor: pointer;
+}

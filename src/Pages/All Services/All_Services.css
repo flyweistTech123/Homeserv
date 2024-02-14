@@ -1,0 +1,98 @@
+.service {
+}
+
+.service h3 {
+  fontfamily: "Mulish, sans-serif";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30.12px;
+  text-align: center;
+  color: #333333;
+}
+
+
+
+.service10{
+    display: flex;
+    gap: 300px;
+}
+
+.service11{
+    width: 50%;
+}
+
+.service12{
+    width: 50%;
+}
+
+
+.service1 {
+  margin-top: 30px;
+}
+
+.service1 h2 {
+  fontfamily: "Inter, sans-serif";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #282929;
+}
+
+.service2 {
+  position: relative;
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.service222{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.service4 {
+  width: 69px;
+  height: 69.01px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service4::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  box-shadow: inset 0px 5px 10px 1px rgba(0, 0, 0, 0.3); /* Apply the inner shadow */
+  border-radius: 50%;
+}
+
+.service3 {
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service3 h6 {
+  fontfamily: "Mulish, sans-serif";
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  color: #282929;
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  margin-top: 5px
+}
+
+

@@ -1,0 +1,165 @@
+.acservice {
+}
+
+.acservice h3 {
+  fontfamily: "Mulish, sans-serif";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30.12px;
+  text-align: center;
+  color: #333333;
+}
+
+.acservice1 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.acservice2 {
+  display: flex;
+  gap: 30px;
+}
+
+.acservice3{
+    cursor: pointer;
+}
+
+.acservice4 {
+}
+
+.acservice5 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.acservice6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.acservice6 span {
+  fontfamily: "Inter, sans-serif";
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12.1px;
+  text-align: center;
+  color: #17181d;
+}
+
+.acservice7 {
+}
+
+.acservice7 h3 {
+  fontfamily: "Inter, sans-serif";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #17181d;
+  text-align: start;
+}
+
+.acservice8 {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.acservice9 {
+  width: 315px;
+  height: 103px;
+  border: 1px solid #14959c;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.acservice9 h6 {
+  fontfamily: "Inter, sans-serif";
+  font-weight: 700;
+  font-size: 14px;
+  color: #17181d;
+  margin: 0;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.acservice9 p {
+  fontfamily: "Inter, sans-serif";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.52px;
+  color: #17181d;
+  margin: 0;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.acservice10 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.acservice11 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.acservice11 span:nth-child(1) {
+  fontfamily: "Inter, sans-serif";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #17181d;
+  margin: 0;
+}
+
+.acservice11 span:nth-child(2) {
+  fontfamily: "Poppins, sans-serif";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 13.5px;
+  margin: 0;
+  color: #17181d80;
+}
+
+
+
+.acservice11 img {
+  width: 39px;
+  height: 16px;
+}
+
+.acservice12 {
+  padding-right: 20px;
+}
+
+.acservice12 button {
+  width: 68px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #14959c;
+  border: none;
+  outline: none;
+  fontfamily: "Poppins, sans-serif";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+.acservice13{
+    cursor: pointer;
+}
