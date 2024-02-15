@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 
 import img from '../../Images/img1.png'
@@ -45,6 +45,7 @@ import img38 from '../../Images/img39.png'
 import img39 from '../../Images/img40.png'
 import img40 from '../../Images/img41.png'
 import img41 from '../../Images/img42.png'
+import img42 from '../../Images/img51.png'
 
 
 
@@ -187,130 +188,169 @@ const Home = () => {
                         <h2>Domestic Repair Services</h2>
 
                         <div class="home19">
-                            <div className='home21' onClick={()=>navigate('/ac_services')}>
-                                <div class="home20">
-                                    <img width={35} src={img14} alt="" />
-                                </div>
+                            <div className='home21'>
+                                <Link to={'/ac_services'}>
+                                    <div class="home20">
+                                        <img width={35} src={img14} alt="" />
+                                    </div>
+                                </Link>
+
 
                                 <div>
                                     <h6>AC Service & Repair</h6>
                                 </div>
                             </div>
-                            <div className='home21' onClick={()=>navigate('/all_services')}>
-                                <div class="home20">
-                                    <img  width={35} src={img14} alt="" />
-                                </div>
+                            <div className='home21'>
+                                <Link to={'/air_coller_services'}>
+                                    <div class="home20">
+                                        <img width={35} src={img14} alt="" />
+                                    </div>
+                                </Link>
+
 
                                 <div>
                                     <h6>Air Cooler Repair</h6>
                                 </div>
                             </div>
                             <div className='home21'>
-                                <div class="home20">
-                                    <img  width={35} src={img14} alt="" />
-                                </div>
+                                <Link to={'/Air_Purifier'}>
+                                    <div class="home20">
+                                        <img width={35} src={img14} alt="" />
+                                    </div>
+                                </Link>
+
 
                                 <div>
                                     <h6>Air Purifier</h6>
                                 </div>
                             </div>
                             <div className='home21'>
-                                <div class="home20">
-                                    <img width={25} src={img15} alt="" />
-                                </div>
+                                <Link to={'/chimney_repair'}>
+                                    <div class="home20">
+                                        <img width={25} src={img15} alt="" />
+                                    </div>
+                                </Link>
 
                                 <div>
                                     <h6>Chimney Repair</h6>
                                 </div>
                             </div>
                             <div className='home21'>
-                                <div class="home20">
-                                    <img  width={25} src={img16} alt="" />
-                                </div>
+                                <Link to={'/laptop_repair'}>
+                                    <div class="home20">
+                                        <img width={25} src={img16} alt="" />
+                                    </div>
+                                </Link>
 
                                 <div>
                                     <h6>Laptop Repair</h6>
                                 </div>
                             </div>
                             <div className='home21'>
-                                <div class="home20">
-                                    <img width={30} src={img17} alt="" />
-                                </div>
+                                <Link to={'/inverter_repair'}>
+                                    <div class="home20">
+                                        <img width={30} src={img17} alt="" />
+                                    </div>
+                                </Link>
+
 
                                 <div>
                                     <h6>Inverter Repair</h6>
                                 </div>
                             </div>
                             <div className='home21'>
-                                <div class="home20">
-                                    <img width={30} src={img18} alt="" />
-                                </div>
+                                <Link to={'mixer_repair'}>
+                                    <div class="home20">
+                                        <img width={30} src={img18} alt="" />
+                                    </div>
+                                </Link>
 
                                 <div>
                                     <h6>Mixer & Grinder Repair</h6>
                                 </div>
                             </div>
                             <div className='home21'>
-                                <div class="home20">
-                                    <img width={35} src={img19} alt="" />
-                                </div>
+                                <Link to={'/television_repair'}>
+                                    <div class="home20">
+                                        <img width={35} src={img19} alt="" />
+                                    </div>
+                                </Link>
+
 
                                 <div>
                                     <h6>Television Repair</h6>
                                 </div>
                             </div>
                             <div className='home21'>
-                                <div class="home20">
-                                    <img  width={30} src={img20} alt="" />
-                                </div>
+                                <Link to={'/refrigerator_repair'}>
+                                    <div class="home20">
+                                        <img width={30} src={img20} alt="" />
+                                    </div>
+                                </Link>
+
 
                                 <div>
                                     <h6>Refrigerator Repair</h6>
                                 </div>
                             </div>
                             <div className='home21'>
-                                <div class="home20">
-                                    <img width={35} src={img21} alt="" />
-                                </div>
+                                <Link to={'/Washing_Machine'}>
+                                    <div class="home20">
+                                        <img width={35} src={img21} alt="" />
+                                    </div>
+                                </Link>
+
 
                                 <div>
                                     <h6>Washing Machine</h6>
                                 </div>
                             </div>
                             <div className='home21'>
-                                <div class="home20">
-                                    <img width={80} src={img24} alt="" />
-                                </div>
+                                <Link to={'/water_purifier'}>
+                                    <div class="home20">
+                                        <img width={80} src={img24} alt="" />
+                                    </div>
+                                </Link>
+
 
                                 <div>
                                     <h6>Water purifier</h6>
                                 </div>
                             </div>
                             <div className='home21'>
-                                <div class="home20">
-                                    <img  width={30} src={img22} alt="" />
-                                </div>
+                                <Link to={'/geyser_repair'}>
+                                    <div class="home20">
+                                        <img width={30} src={img22} alt="" />
+                                    </div>
+                                </Link>
+
 
                                 <div>
                                     <h6>Geyser</h6>
                                 </div>
                             </div>
                             <div className='home21'>
-                                <div class="home20">
-                                    <img width={35}  src={img23} alt="" />
-                                </div>
+                                <Link to={'/microwave_repair'}>
+                                    <div class="home20">
+                                        <img width={35} src={img23} alt="" />
+                                    </div>
+                                </Link>
+
 
                                 <div>
                                     <h6>Microwave</h6>
                                 </div>
                             </div>
-                            <div className='home21'>
-                                <div class="home20">
-                                    <img width={30}  src={img14} alt="" />
-                                </div>
+                            <div className='home21' >
+                                <Link to={'/all_services'}>
+                                    <div class="home20" >
+                                        <img width={25} src={img42} alt="" />
+                                    </div>
+                                </Link>
+
 
                                 <div>
-                                    <h6>AC Gas Charging</h6>
+                                    <h6>See More</h6>
                                 </div>
                             </div>
 
@@ -322,54 +362,72 @@ const Home = () => {
 
                         <div class="home19">
                             <div className='home21'>
-                                <div class="home20">
-                                    <img  src={img25} alt="" />
-                                </div>
+                                <Link to={'/bathroom_kitchen_cleaning'}>
+                                    <div class="home20">
+                                        <img src={img25} alt="" />
+                                    </div>
+                                </Link>
+
 
                                 <div>
                                     <h6>Bathroom & Kitchen Cleaning</h6>
                                 </div>
                             </div>
                             <div className='home21'>
-                                <div class="home20">
-                                    <img   src={img26} alt="" />
-                                </div>
+                                <Link to={'/electrician'}>
+                                    <div class="home20">
+                                        <img src={img26} alt="" />
+                                    </div>
+                                </Link>
+
 
                                 <div>
                                     <h6>Electrician</h6>
                                 </div>
                             </div>
                             <div className='home21'>
-                                <div class="home20">
-                                    <img  src={img27} alt="" />
-                                </div>
+                                <Link to={'/full_home_cleaning'}>
+                                    <div class="home20">
+                                        <img src={img27} alt="" />
+                                    </div>
+                                </Link>
+
 
                                 <div>
                                     <h6>Full home Cleaning</h6>
                                 </div>
                             </div>
                             <div className='home21'>
-                                <div class="home20">
-                                    <img width={25} src={img28} alt="" />
-                                </div>
+                                <Link to={'/Sofa_cleaning'}>
+                                    <div class="home20">
+                                        <img width={25} src={img28} alt="" />
+                                    </div>
+                                </Link>
+
 
                                 <div>
                                     <h6>Sofa & Carpet Cleaning</h6>
                                 </div>
                             </div>
                             <div className='home21'>
-                                <div class="home20">
-                                    <img  width={25} src={img29} alt="" />
-                                </div>
+                                <Link to={'/cockroach_Control'}>
+                                    <div class="home20">
+                                        <img width={25} src={img29} alt="" />
+                                    </div>
+                                </Link>
+
 
                                 <div>
                                     <h6>Cockroach, ant & general pest Control</h6>
                                 </div>
                             </div>
                             <div className='home21'>
-                                <div class="home20">
-                                    <img width={30} src={img30} alt="" />
-                                </div>
+                                <Link to={'/termite_control'}>
+                                    <div class="home20">
+                                        <img width={30} src={img30} alt="" />
+                                    </div>
+                                </Link>
+
 
                                 <div>
                                     <h6>Termite Control</h6>
@@ -393,7 +451,7 @@ const Home = () => {
                             </div>
                             <div className='home21'>
                                 <div class="home20">
-                                    <img  src={img32} alt="" />
+                                    <img src={img32} alt="" />
                                 </div>
 
                                 <div>
@@ -428,7 +486,7 @@ const Home = () => {
                             </div>
                             <div className='home21'>
                                 <div class="home20">
-                                    <img  width={45} src={img35} alt="" />
+                                    <img width={45} src={img35} alt="" />
                                 </div>
 
                                 <div>
@@ -444,7 +502,7 @@ const Home = () => {
                         <div class="home199">
                             <div className='home21'>
                                 <div class="home20">
-                                    <img  src={img26} alt="" />
+                                    <img src={img26} alt="" />
                                 </div>
 
                                 <div>
@@ -453,7 +511,7 @@ const Home = () => {
                             </div>
                             <div className='home21'>
                                 <div class="home20">
-                                    <img  width={30} src={img36} alt="" />
+                                    <img width={30} src={img36} alt="" />
                                 </div>
 
                                 <div>
@@ -462,7 +520,7 @@ const Home = () => {
                             </div>
                             <div className='home21'>
                                 <div class="home20">
-                                    <img  width={35} src={img37} alt="" />
+                                    <img width={35} src={img37} alt="" />
                                 </div>
 
                                 <div>
@@ -471,7 +529,7 @@ const Home = () => {
                             </div>
                             <div className='home21'>
                                 <div class="home20">
-                                    <img  width={35} src={img38} alt="" />
+                                    <img width={35} src={img38} alt="" />
                                 </div>
 
                                 <div>
@@ -495,7 +553,7 @@ const Home = () => {
                             </div>
                             <div className='home21'>
                                 <div class="home20">
-                                    <img  src={img40} alt="" />
+                                    <img src={img40} alt="" />
                                 </div>
 
                                 <div>
@@ -504,7 +562,7 @@ const Home = () => {
                             </div>
                             <div className='home21'>
                                 <div class="home20">
-                                    <img  src={img41} alt="" />
+                                    <img src={img41} alt="" />
                                 </div>
 
                                 <div>
@@ -519,7 +577,7 @@ const Home = () => {
 
 
                 <div className='home22'>
-                    <Footer/>
+                    <Footer />
                 </div>
             </div>
         </>

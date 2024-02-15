@@ -5,6 +5,7 @@ import { FaBagShopping } from "react-icons/fa6";
 import { MdOutlineQrCodeScanner } from "react-icons/md";
 import { IoPerson } from "react-icons/io5";
 import { BsArrowLeft } from "react-icons/bs";
+import { useNavigate } from 'react-router-dom';
 
 
 import './Sidebar.css'
@@ -24,12 +25,14 @@ const Sidebar = () => {
         { icon: <IoPerson />, text: 'Profile' },
     ];
 
+    const navigate = useNavigate()
+
     return (
         <div className='sidebar'>
             <div className='sidenar4'>
 
-                <div className='sidebar3'>
-                <BsArrowLeft />
+                <div className='sidebar31'>
+                    <BsArrowLeft onClick={() => navigate('/')} />
                 </div>
                 <ul>
                     {navItems.map((item, index) => (
@@ -41,7 +44,9 @@ const Sidebar = () => {
                             <div className='sidebar2'>
                                 {item.icon}
                             </div>
-                            {item.text}
+                            <div className='sidebar10'>
+                                {item.text}
+                            </div>
                         </li>
                     ))}
                 </ul>

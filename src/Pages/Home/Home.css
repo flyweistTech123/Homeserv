@@ -203,6 +203,7 @@ span {
   font-weight: 800;
   font-size: 50px;
   color: #14939A;
+  margin: 0;
 }
 
 .home16 span:nth-child(2){
@@ -210,6 +211,7 @@ span {
   font-weight: 500;
   font-size: 24px;
   color: #121212;
+  margin: 0;
 }
 
 
@@ -280,7 +282,7 @@ span {
 
 .home21{
   width: calc(20% - 80px); 
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -293,6 +295,9 @@ span {
   line-height: 15.06px;
   color: #282929;
   text-align: center;
+  padding-top: 10px;
+  width: 80%;
+  margin: auto;
 }
 
 

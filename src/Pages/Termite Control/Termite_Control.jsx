@@ -1,9 +1,6 @@
 import React, { useState } from 'react'
 import HOC from '../../Components/HOC/HOC';
-import './AC_Services.css'
 import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -16,11 +13,11 @@ import img4 from '../../Images/img47.png'
 import img5 from '../../Images/img48.png'
 import img6 from '../../Images/img49.png'
 import img7 from '../../Images/img50.png'
-import AC_card from './AC_card';
+import AC_card from '../AC Services/AC_card';
 
 
 
-const AC_Services = () => {
+const Termite_Control = () => {
     const images = [img, img, img, img];
 
     const [show, setShow] = useState(false)
@@ -36,7 +33,7 @@ const AC_Services = () => {
     return (
         <>
             <div className='acservice111'>
-                <h3>AC Services & Repair</h3>
+                <h3>Termite Control</h3>
             </div>
             <div className='acservice'>
                 <div className='acservice1'>
@@ -163,7 +160,7 @@ const AC_Services = () => {
                         <h5>Ac Service & Repair</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Power Jet Ac Service ( Split)</h6>
+                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -190,7 +187,7 @@ const AC_Services = () => {
                         <h5>Ac Service & Repair</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Window )</h6>
+                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -217,7 +214,7 @@ const AC_Services = () => {
                         <h5>Ac Service & Repair</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Power Jet Ac Service ( Window )</h6>
+                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -244,7 +241,7 @@ const AC_Services = () => {
                         <h5>Ac Service & Repair</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Anti -rust deep clean Ac service</h6>
+                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -268,10 +265,10 @@ const AC_Services = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Repair & gas refill</h5>
+                        <h5>Ac Service & Repair</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Ac Repair ( split / window)</h6>
+                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -295,10 +292,10 @@ const AC_Services = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Repair & gas refill</h5>
+                        <h5>Ac Service & Repair</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Gas leak fix & refill</h6>
+                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -322,10 +319,10 @@ const AC_Services = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Install / UnInstall</h5>
+                        <h5>Ac Service & Repair</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Install)</h6>
+                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -349,10 +346,10 @@ const AC_Services = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Install / UnInstall</h5>
+                        <h5>Ac Service & Repair</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>UnInstall</h6>
+                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -514,4 +511,4 @@ const AC_Services = () => {
     )
 }
 
-export default HOC(AC_Services)
+export default HOC(Termite_Control)

@@ -1,9 +1,6 @@
 import React, { useState } from 'react'
 import HOC from '../../Components/HOC/HOC';
-import './AC_Services.css'
 import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -16,11 +13,11 @@ import img4 from '../../Images/img47.png'
 import img5 from '../../Images/img48.png'
 import img6 from '../../Images/img49.png'
 import img7 from '../../Images/img50.png'
-import AC_card from './AC_card';
+import AC_card from '../AC Services/AC_card';
 
 
 
-const AC_Services = () => {
+const Air_Purifier = () => {
     const images = [img, img, img, img];
 
     const [show, setShow] = useState(false)
@@ -36,7 +33,7 @@ const AC_Services = () => {
     return (
         <>
             <div className='acservice111'>
-                <h3>AC Services & Repair</h3>
+                <h3>Air Purifier</h3>
             </div>
             <div className='acservice'>
                 <div className='acservice1'>
@@ -133,10 +130,10 @@ const AC_Services = () => {
 
                 <div className="acservice14" >
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Service</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Filter cleaning service</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -160,10 +157,10 @@ const AC_Services = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Filter Replacement</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Power Jet Ac Service ( Split)</h6>
+                                <h6>Mi Filter Replacement</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -187,10 +184,10 @@ const AC_Services = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Repair</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Window )</h6>
+                                <h6>Air Purifier Repair</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -213,168 +210,7 @@ const AC_Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
-                        <div className='acservice16'>
-                            <div className="acservice17">
-                                <h6>Power Jet Ac Service ( Window )</h6>
-                                <p>Starts with ₹299  ( 45 mins)</p>
-                                <hr />
-
-                                <ul>
-                                    <li>
-                                        Accurate diagnosis & same day resolution after detailed inspection
-                                    </li>
-                                    <li>
-                                        Visit charges of ₹299 will be adjusted in the final bill
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className="acservice18">
-                                <img src={img7} alt="" />
-
-                                <button>Add</button>
-
-                                <span>View More</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
-                        <div className='acservice16'>
-                            <div className="acservice17">
-                                <h6>Anti -rust deep clean Ac service</h6>
-                                <p>Starts with ₹299  ( 45 mins)</p>
-                                <hr />
-
-                                <ul>
-                                    <li>
-                                        Accurate diagnosis & same day resolution after detailed inspection
-                                    </li>
-                                    <li>
-                                        Visit charges of ₹299 will be adjusted in the final bill
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className="acservice18">
-                                <img src={img7} alt="" />
-
-                                <button>Add</button>
-
-                                <span>View More</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="acservice15">
-                        <h5>Repair & gas refill</h5>
-                        <div className='acservice16'>
-                            <div className="acservice17">
-                                <h6>Ac Repair ( split / window)</h6>
-                                <p>Starts with ₹299  ( 45 mins)</p>
-                                <hr />
-
-                                <ul>
-                                    <li>
-                                        Accurate diagnosis & same day resolution after detailed inspection
-                                    </li>
-                                    <li>
-                                        Visit charges of ₹299 will be adjusted in the final bill
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className="acservice18">
-                                <img src={img7} alt="" />
-
-                                <button>Add</button>
-
-                                <span>View More</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="acservice15">
-                        <h5>Repair & gas refill</h5>
-                        <div className='acservice16'>
-                            <div className="acservice17">
-                                <h6>Gas leak fix & refill</h6>
-                                <p>Starts with ₹299  ( 45 mins)</p>
-                                <hr />
-
-                                <ul>
-                                    <li>
-                                        Accurate diagnosis & same day resolution after detailed inspection
-                                    </li>
-                                    <li>
-                                        Visit charges of ₹299 will be adjusted in the final bill
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className="acservice18">
-                                <img src={img7} alt="" />
-
-                                <button>Add</button>
-
-                                <span>View More</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="acservice15">
-                        <h5>Install / UnInstall</h5>
-                        <div className='acservice16'>
-                            <div className="acservice17">
-                                <h6>Install)</h6>
-                                <p>Starts with ₹299  ( 45 mins)</p>
-                                <hr />
-
-                                <ul>
-                                    <li>
-                                        Accurate diagnosis & same day resolution after detailed inspection
-                                    </li>
-                                    <li>
-                                        Visit charges of ₹299 will be adjusted in the final bill
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className="acservice18">
-                                <img src={img7} alt="" />
-
-                                <button>Add</button>
-
-                                <span>View More</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="acservice15">
-                        <h5>Install / UnInstall</h5>
-                        <div className='acservice16'>
-                            <div className="acservice17">
-                                <h6>UnInstall</h6>
-                                <p>Starts with ₹299  ( 45 mins)</p>
-                                <hr />
-
-                                <ul>
-                                    <li>
-                                        Accurate diagnosis & same day resolution after detailed inspection
-                                    </li>
-                                    <li>
-                                        Visit charges of ₹299 will be adjusted in the final bill
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className="acservice18">
-                                <img src={img7} alt="" />
-
-                                <button>Add</button>
-
-                                <span>View More</span>
-                            </div>
-                        </div>
-                    </div>
+                
 
                 </div>
 
@@ -514,4 +350,4 @@ const AC_Services = () => {
     )
 }
 
-export default HOC(AC_Services)
+export default HOC(Air_Purifier)

@@ -10,20 +10,15 @@ const HOC = (Wcomponenet) => {
     return function Component() {
         return (
             <>
-                <div className="hoc">
-
-                    <div className="hoc1">
+                <div className="container1">
+                    <div className="sidebarhoc">
                         <Sidebar />
                     </div>
-
-                    <div className="hoc2">
-                        {/* <Upperbar /> */}
-                        <div className="hoc3" >
-                            {" "}
-                            <Wcomponenet />
-                        </div>
+                    <div className="content">
+                    <Wcomponenet />
                     </div>
                 </div>
+
             </>
         );
     };
