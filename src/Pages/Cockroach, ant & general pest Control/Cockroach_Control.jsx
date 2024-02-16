@@ -33,7 +33,9 @@ const Cockroach_Control = () => {
     return (
         <>
             <div className='acservice111'>
-                <h3>Cockroach, ant & general pest Control</h3>
+                <div className='acservice112'>
+                    <h3>Cockroach, ant & general pest Control</h3>
+                </div>
             </div>
             <div className='acservice'>
                 <div className='acservice1'>
@@ -116,7 +118,7 @@ const Cockroach_Control = () => {
                                     </div>
                                 </div>
                                 <div className='acservice20'>
-                                    <div className="acservice21"  onClick={handleShow}>
+                                    <div className="acservice21" onClick={handleShow}>
                                         <img width={20} src={img2} alt="" />
                                     </div>
                                     <div>
@@ -130,10 +132,10 @@ const Cockroach_Control = () => {
 
                 <div className="acservice14" >
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Kitchen & Bathroom Pest Control</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Bathroom & Kitchen with utensils removal</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -157,10 +159,10 @@ const Cockroach_Control = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Kitchen & Bathroom Pest Control</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Bathroom & Kitchen</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -184,10 +186,10 @@ const Cockroach_Control = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Kitchen & Bathroom Pest Control</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Bathroom & Kitchen</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -211,10 +213,10 @@ const Cockroach_Control = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Home Pest Control</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Apartment Pest Control</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -238,10 +240,10 @@ const Cockroach_Control = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Home Pest Control</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Bungalow Pest Control</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -265,10 +267,10 @@ const Cockroach_Control = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Home Pest Control</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Utensils Removal Service</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -292,10 +294,10 @@ const Cockroach_Control = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Offices and Shops Pest Control</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Offices Pest Control</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -319,10 +321,10 @@ const Cockroach_Control = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Offices and Shops Pest Control</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Rental Shop Pest Control</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -346,10 +348,10 @@ const Cockroach_Control = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Offices and Shops Pest Control</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Rental Shop Pest Control</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -382,7 +384,7 @@ const Cockroach_Control = () => {
             </div>
 
 
-            <Modal show={modalShow} onHide={handleClose}  className="custom-modal">
+            <Modal show={modalShow} onHide={handleClose} className="custom-modal">
                 <Modal.Header className="custom-modal-header" closeButton>
                     <Modal.Title>Essential AC Service</Modal.Title>
                 </Modal.Header>
@@ -396,7 +398,7 @@ const Cockroach_Control = () => {
                             </div>
 
                             <div className='modalAc3'>
-                                <button  onClick={handleShow1}>Add</button>
+                                <button onClick={handleShow1}>Add</button>
                             </div>
                         </div>
                         <div className='modalAc1'>

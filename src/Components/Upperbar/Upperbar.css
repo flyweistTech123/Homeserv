@@ -1,0 +1,127 @@
+.upperbar1 {
+  width: 100%;
+  height: 100px;
+  /* display: flex;
+  align-items: center; */
+  z-index: 1;
+  position: fixed;
+  background-color: #ffffff;
+  cursor: pointer;
+  margin: auto;
+}
+
+.upperbar9{
+    width: 85%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 100px; */
+    /* margin: auto; */
+}
+
+.upperbar1 h3 {
+  fontfamily: "Mulish, sans-serif";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30.12px;
+  text-align: center;
+  color: #333333;
+  margin: 0;
+}
+
+
+.upperbar2{
+    width: 518px;
+    height: 48px;
+    border: 0.68px solid #292C35;
+    border-radius:  25.06px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.upperbar2 input{
+    border: none;
+    outline: none;
+    width: 350px;
+    padding-left: 10px;
+    height: auto;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 15.06px;
+    color: black;
+    margin: 0;
+}
+
+.upperbar2 input::placeholder{
+    fontfamily: "Mulish, sans-serif";
+    font-style: italic;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15.06px;
+    color: #17181D80;
+    margin: 0;
+
+}
+
+.upperbar3{
+    width: 78px;
+    height: 48px;
+    border-left: 1px solid #292C35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #14959C;
+}
+
+.upperbar4{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.upperbar5{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.upperbar6 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.upperbar6 span{
+    fontfamily: "Mulish, sans-serif";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25.1px;
+    color: #14959C;
+    margin: 0;
+}
+
+.upperbar7{
+    width: 200px;
+    height: 41px;
+    border: 1px solid #E1E1E1;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.upperbar7 p{
+    fontfamily: "Raleway, sans-serif";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17.61px;
+    color: #17181D;
+    margin: 0;
+}

@@ -17,7 +17,7 @@ import AC_card from '../AC Services/AC_card';
 
 
 
-const Washing_Machine = () => {
+const Air_Conditioner = () => {
     const images = [img, img, img, img];
 
     const [show, setShow] = useState(false)
@@ -34,7 +34,7 @@ const Washing_Machine = () => {
         <>
             <div className='acservice111'>
                 <div className='acservice112'>
-                    <h3>Washing Machine</h3>
+                    <h3>Air Conditioner</h3>
                 </div>
             </div>
             <div className='acservice'>
@@ -132,10 +132,10 @@ const Washing_Machine = () => {
 
                 <div className="acservice14" >
                     <div className="acservice15">
-                        <h5>Repair</h5>
+                        <h5>AC Service</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Fully Automatic ( Top Load ) Checkup</h6>
+                                <h6>AC repair (split/window)</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -159,10 +159,10 @@ const Washing_Machine = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Repair</h5>
+                        <h5>Ac Repair/Inspection</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Fully Automatic  ( Front Load ) Checkup</h6>
+                                <h6>AC repair (split/window)</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -186,10 +186,10 @@ const Washing_Machine = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Repair</h5>
+                        <h5>Ac Installation</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Semi Automatic Checkup</h6>
+                                <h6>AC repair (split/window)</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -213,10 +213,10 @@ const Washing_Machine = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Installation</h5>
+                        <h5>AC Service</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Washing Machine (Installation)</h6>
+                                <h6>AC repair (split/window)</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -240,10 +240,10 @@ const Washing_Machine = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Uninstallation</h5>
+                        <h5>Ac Repair/Inspection</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Washing Machine (Uninstallation)</h6>
+                                <h6>AC repair (split/window)</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -266,6 +266,35 @@ const Washing_Machine = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="acservice15">
+                        <h5>Ac Installation</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>AC repair (split/window)</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
 
                 <div className='acservice19'>
@@ -404,4 +433,4 @@ const Washing_Machine = () => {
     )
 }
 
-export default HOC(Washing_Machine)
+export default HOC(Air_Conditioner)

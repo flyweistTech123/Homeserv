@@ -36,6 +36,11 @@
     line-height: 12.55px;
 }
 
+.sidebar-link {
+    text-decoration: none;
+    color: inherit;
+}
+
 .sidebar2{
     fontfamily: "Mulish, sans-serif";
     font-weight: 900;
@@ -100,4 +105,6 @@
 
 .sidebar ul li.active .sidebar10{
     display: block;
+    text-align: center;
+    padding-top: 5px;
 }

@@ -33,7 +33,9 @@ const Termite_Control = () => {
     return (
         <>
             <div className='acservice111'>
-                <h3>Termite Control</h3>
+                <div className='acservice112'>
+                    <h3>Termite Control</h3>
+                </div>
             </div>
             <div className='acservice'>
                 <div className='acservice1'>
@@ -116,7 +118,7 @@ const Termite_Control = () => {
                                     </div>
                                 </div>
                                 <div className='acservice20'>
-                                    <div className="acservice21"  onClick={handleShow}>
+                                    <div className="acservice21" onClick={handleShow}>
                                         <img width={20} src={img2} alt="" />
                                     </div>
                                     <div>
@@ -130,10 +132,10 @@ const Termite_Control = () => {
 
                 <div className="acservice14" >
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Apartment</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Apartment</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -157,10 +159,10 @@ const Termite_Control = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Bungalow</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Bungalow</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -184,10 +186,10 @@ const Termite_Control = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Bungalow</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Bungalow</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -210,169 +212,6 @@ const Termite_Control = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
-                        <div className='acservice16'>
-                            <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
-                                <p>Starts with ₹299  ( 45 mins)</p>
-                                <hr />
-
-                                <ul>
-                                    <li>
-                                        Accurate diagnosis & same day resolution after detailed inspection
-                                    </li>
-                                    <li>
-                                        Visit charges of ₹299 will be adjusted in the final bill
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className="acservice18">
-                                <img src={img7} alt="" />
-
-                                <button>Add</button>
-
-                                <span>View More</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
-                        <div className='acservice16'>
-                            <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
-                                <p>Starts with ₹299  ( 45 mins)</p>
-                                <hr />
-
-                                <ul>
-                                    <li>
-                                        Accurate diagnosis & same day resolution after detailed inspection
-                                    </li>
-                                    <li>
-                                        Visit charges of ₹299 will be adjusted in the final bill
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className="acservice18">
-                                <img src={img7} alt="" />
-
-                                <button>Add</button>
-
-                                <span>View More</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
-                        <div className='acservice16'>
-                            <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
-                                <p>Starts with ₹299  ( 45 mins)</p>
-                                <hr />
-
-                                <ul>
-                                    <li>
-                                        Accurate diagnosis & same day resolution after detailed inspection
-                                    </li>
-                                    <li>
-                                        Visit charges of ₹299 will be adjusted in the final bill
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className="acservice18">
-                                <img src={img7} alt="" />
-
-                                <button>Add</button>
-
-                                <span>View More</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
-                        <div className='acservice16'>
-                            <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
-                                <p>Starts with ₹299  ( 45 mins)</p>
-                                <hr />
-
-                                <ul>
-                                    <li>
-                                        Accurate diagnosis & same day resolution after detailed inspection
-                                    </li>
-                                    <li>
-                                        Visit charges of ₹299 will be adjusted in the final bill
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className="acservice18">
-                                <img src={img7} alt="" />
-
-                                <button>Add</button>
-
-                                <span>View More</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
-                        <div className='acservice16'>
-                            <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
-                                <p>Starts with ₹299  ( 45 mins)</p>
-                                <hr />
-
-                                <ul>
-                                    <li>
-                                        Accurate diagnosis & same day resolution after detailed inspection
-                                    </li>
-                                    <li>
-                                        Visit charges of ₹299 will be adjusted in the final bill
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className="acservice18">
-                                <img src={img7} alt="" />
-
-                                <button>Add</button>
-
-                                <span>View More</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
-                        <div className='acservice16'>
-                            <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
-                                <p>Starts with ₹299  ( 45 mins)</p>
-                                <hr />
-
-                                <ul>
-                                    <li>
-                                        Accurate diagnosis & same day resolution after detailed inspection
-                                    </li>
-                                    <li>
-                                        Visit charges of ₹299 will be adjusted in the final bill
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className="acservice18">
-                                <img src={img7} alt="" />
-
-                                <button>Add</button>
-
-                                <span>View More</span>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
 
                 <div className='acservice19'>
@@ -382,7 +221,7 @@ const Termite_Control = () => {
             </div>
 
 
-            <Modal show={modalShow} onHide={handleClose}  className="custom-modal">
+            <Modal show={modalShow} onHide={handleClose} className="custom-modal">
                 <Modal.Header className="custom-modal-header" closeButton>
                     <Modal.Title>Essential AC Service</Modal.Title>
                 </Modal.Header>
@@ -396,7 +235,7 @@ const Termite_Control = () => {
                             </div>
 
                             <div className='modalAc3'>
-                                <button  onClick={handleShow1}>Add</button>
+                                <button onClick={handleShow1}>Add</button>
                             </div>
                         </div>
                         <div className='modalAc1'>

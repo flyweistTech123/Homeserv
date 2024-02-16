@@ -35,10 +35,12 @@ import img41 from '../../Images/img42.png'
 const All_Services = () => {
   return (
     <>
+    <div className='acservice111'>
+      <div className='acservice112'>
+          <h3>All Services</h3>
+      </div>
+    </div>
       <div className='service'>
-        <h3>All Services</h3>
-
-
         <div className='service10'>
           <div className='service11'>
             <div className='service1'>
@@ -238,7 +240,7 @@ const All_Services = () => {
             </div>
           </div>
         </div>
-        
+
         <div className='service10'>
           <div className='service11'>
             <div className='service1'>

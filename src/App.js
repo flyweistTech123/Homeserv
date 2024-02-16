@@ -2,7 +2,6 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import BrowserRouter
 import All_Services from './Pages/All Services/All_Services';
 import AC_Services from './Pages/AC Services/AC_Services';
-import Home from './Pages/Home/Home';
 import Air_Coller_Services from './Pages/Air coller & Repair/Air_Cooler_Repair'
 import Air_Purifier from './Pages/Air Purifier/Air_Purifier';
 import Chimney_Repair from './Pages/Chimney Repair/Chimney_Repair';
@@ -21,6 +20,10 @@ import Sofa_Cleaning from './Pages/Sofa & Carpet Cleaning/Sofa_Cleaning';
 import Cockroach_Control from './Pages/Cockroach, ant & general pest Control/Cockroach_Control';
 import Termite_Control from './Pages/Termite Control/Termite_Control';
 import Electrician from './Pages/Electrician/Electrician';
+import LandingPage from './Pages/LandingPage/LandingPage';
+import Home from './Pages/Home/Home.jsx';
+import Air_Conditioner from './Pages/Air Conditioner/Air_Conditioner.jsx';
+import Booking from './Pages/Booking/Booking.jsx';
 
 
 
@@ -29,7 +32,7 @@ function App() {
   return (
     <Router> 
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="/" element={<LandingPage/>} />
           <Route path="/all_services" element={<All_Services />} />
           <Route path="/ac_services" element={<AC_Services />} />
           <Route path="/air_coller_services" element={<Air_Coller_Services />} />
@@ -50,6 +53,9 @@ function App() {
           <Route path="/cockroach_Control" element={<Cockroach_Control />} />
           <Route path="/termite_control" element={<Termite_Control />} />
           <Route path="/electrician" element={<Electrician />} />
+          <Route path="/air_conditioner" element={<Air_Conditioner />} />
+          <Route path="/home" element={<Home/>} />
+          <Route path="/bookings" element={<Booking/>} />
         </Routes>
     </Router>
   );

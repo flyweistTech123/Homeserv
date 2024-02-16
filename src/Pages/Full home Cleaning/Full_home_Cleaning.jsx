@@ -33,7 +33,9 @@ const Full_home_Cleaning = () => {
     return (
         <>
             <div className='acservice111'>
-                <h3>Full Home Cleaning</h3>
+                <div className='acservice112'>
+                    <h3>Full Home Cleaning</h3>
+                </div>
             </div>
             <div className='acservice'>
                 <div className='acservice1'>
@@ -116,7 +118,7 @@ const Full_home_Cleaning = () => {
                                     </div>
                                 </div>
                                 <div className='acservice20'>
-                                    <div className="acservice21"  onClick={handleShow}>
+                                    <div className="acservice21" onClick={handleShow}>
                                         <img width={20} src={img2} alt="" />
                                     </div>
                                     <div>
@@ -130,10 +132,10 @@ const Full_home_Cleaning = () => {
 
                 <div className="acservice14" >
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Furnished Apartment</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Classic Full Home Cleaning</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -157,10 +159,10 @@ const Full_home_Cleaning = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Furnished Apartment</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Premium Full Home Cleaning</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -184,10 +186,10 @@ const Full_home_Cleaning = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Furnished Apartment</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Platinum Full Home Cleaning</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -211,10 +213,10 @@ const Full_home_Cleaning = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>UnFurnished Apartment</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Classic Full Home Cleaning</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -238,10 +240,10 @@ const Full_home_Cleaning = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>UnFurnished Apartment</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Premium Full Home Cleaning</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -265,10 +267,10 @@ const Full_home_Cleaning = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Book By Room</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Furnished Cleaning</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -292,10 +294,10 @@ const Full_home_Cleaning = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Book By Room</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Furnished Living Room</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -319,10 +321,10 @@ const Full_home_Cleaning = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Book By Room</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Occupied Kitchen Cleaning</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -346,10 +348,577 @@ const Full_home_Cleaning = () => {
                         </div>
                     </div>
                     <div className="acservice15">
-                        <h5>Ac Service & Repair</h5>
+                        <h5>Book By Room</h5>
                         <div className='acservice16'>
                             <div className="acservice17">
-                                <h6>Foam & Power Jet Ac Service ( Split)</h6>
+                                <h6>Occupied Kitchen Cleaning</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Book By Room</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Occupied Kitchen Cleaning With Chimney</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Book By Room</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Occupied Kitchen Cleaning With Appliances</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Book By Room</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Occupied Kitchen Cleaning With Chimney & App........</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Book By Room</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Occupied Kitchen Cleaning With Chimney & App........</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Book By Room</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Unfurnished Bedroom Cleaning</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Book By Room</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Complete Bathroom Cleaning</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Book By Room</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Empty Kitchen Cleaning With Chimney </h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Book By Room</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Unfurnished Livingroom</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Book By Room</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Empty Kitchen Cleaning</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Book By Room</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Balcony</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Furnished Bungalow</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Classic Full Home Cleaning</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Furnished Bungalow</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Premieum Full Home Cleaning</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>UnFurnished Bungalow</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Classic Full Home Cleaning</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>UnFurnished Bungalow</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Premieum Full Home Cleaning</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Mini Services</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>2- Cupboards Wet Wiping (except kitchen)</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Mini Services</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Refrigerator Cleaning</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Mini Services</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Sofa & Cushions Shampooing (Up to 5)</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Mini Services</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Shampooing Carpets (Up to 25 sq.ft)</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Mini Services</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Sticker Glue & Rigid Paint Mark Removals</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Mini Services</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Furniture wet wiping</h6>
+                                <p>Starts with ₹299  ( 45 mins)</p>
+                                <hr />
+
+                                <ul>
+                                    <li>
+                                        Accurate diagnosis & same day resolution after detailed inspection
+                                    </li>
+                                    <li>
+                                        Visit charges of ₹299 will be adjusted in the final bill
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="acservice18">
+                                <img src={img7} alt="" />
+
+                                <button>Add</button>
+
+                                <span>View More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="acservice15">
+                        <h5>Mini Services</h5>
+                        <div className='acservice16'>
+                            <div className="acservice17">
+                                <h6>Home Renovation Waste Disposal</h6>
                                 <p>Starts with ₹299  ( 45 mins)</p>
                                 <hr />
 
@@ -382,7 +951,7 @@ const Full_home_Cleaning = () => {
             </div>
 
 
-            <Modal show={modalShow} onHide={handleClose}  className="custom-modal">
+            <Modal show={modalShow} onHide={handleClose} className="custom-modal">
                 <Modal.Header className="custom-modal-header" closeButton>
                     <Modal.Title>Essential AC Service</Modal.Title>
                 </Modal.Header>
@@ -396,7 +965,7 @@ const Full_home_Cleaning = () => {
                             </div>
 
                             <div className='modalAc3'>
-                                <button  onClick={handleShow1}>Add</button>
+                                <button onClick={handleShow1}>Add</button>
                             </div>
                         </div>
                         <div className='modalAc1'>

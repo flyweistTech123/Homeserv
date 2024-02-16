@@ -33,7 +33,9 @@ const Air_Purifier = () => {
     return (
         <>
             <div className='acservice111'>
-                <h3>Air Purifier</h3>
+                <div className='acservice112'>
+                    <h3>Air Purifier</h3>
+                </div>
             </div>
             <div className='acservice'>
                 <div className='acservice1'>
@@ -116,7 +118,7 @@ const Air_Purifier = () => {
                                     </div>
                                 </div>
                                 <div className='acservice20'>
-                                    <div className="acservice21"  onClick={handleShow}>
+                                    <div className="acservice21" onClick={handleShow}>
                                         <img width={20} src={img2} alt="" />
                                     </div>
                                     <div>
@@ -210,7 +212,7 @@ const Air_Purifier = () => {
                             </div>
                         </div>
                     </div>
-                
+
 
                 </div>
 
@@ -221,7 +223,7 @@ const Air_Purifier = () => {
             </div>
 
 
-            <Modal show={modalShow} onHide={handleClose}  className="custom-modal">
+            <Modal show={modalShow} onHide={handleClose} className="custom-modal">
                 <Modal.Header className="custom-modal-header" closeButton>
                     <Modal.Title>Essential AC Service</Modal.Title>
                 </Modal.Header>
@@ -235,7 +237,7 @@ const Air_Purifier = () => {
                             </div>
 
                             <div className='modalAc3'>
-                                <button  onClick={handleShow1}>Add</button>
+                                <button onClick={handleShow1}>Add</button>
                             </div>
                         </div>
                         <div className='modalAc1'>
