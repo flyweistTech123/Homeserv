@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './Booking.css'
+import { IoIosArrowForward } from "react-icons/io";
 
 import HOC2 from '../../Components/HOC_second/HOC2'
 
@@ -41,14 +42,56 @@ const Booking = () => {
             </div>
 
             {step === 0 ? (
-                <div className="basic1">
-                    <h3>Personal Details</h3>
+                <div className="booking5">
+                    <div className="booking6">
+                        <div className="booking7">
+                            <h6>Order ID:  RAC-0987654</h6>
+                            <p>Order Type: AC Repair Service</p>
+                            <p>Date:  2nd Feb 2023  10:30 AM  </p>
+                        </div>
+                        <div className="booking8">
+                            <span>Cancelled</span>
+                            <IoIosArrowForward color="#14959C" size={25} />
+                        </div>
+                    </div>
 
+                    <div className="booking6">
+                        <div className="booking7">
+                            <h6>Order ID:  RAC-0987654</h6>
+                            <p>Order Type: AC Repair Service</p>
+                            <p>Date:  2nd Feb 2023  10:30 AM  </p>
+                        </div>
+                        <div className="booking8">
+                            <span style={{ color: "#006471" }}>Confirmed</span>
+                            <IoIosArrowForward color="#14959C" size={25} />
+                        </div>
+                    </div>
                 </div>
             ) : step === 1 ? (
-                <div className="recp1">
-                    <h4>Electronic Reciept</h4>
+                <div className="booking5">
+                    <div className="booking6">
+                        <div className="booking7">
+                            <h6>Order ID:  RAC-0987654</h6>
+                            <p>Order Type: AC Repair Service</p>
+                            <p>Date:  2nd Feb 2023  10:30 AM  </p>
+                        </div>
+                        <div className="booking8">
+                            <span>Cancelled</span>
+                            <IoIosArrowForward color="#14959C" size={25} />
+                        </div>
+                    </div>
 
+                    <div className="booking6">
+                        <div className="booking7">
+                            <h6>Order ID:  RAC-0987654</h6>
+                            <p>Order Type: AC Repair Service</p>
+                            <p>Date:  2nd Feb 2023  10:30 AM  </p>
+                        </div>
+                        <div className="booking8">
+                            <span style={{ color: "#006471" }}>Confirmed</span>
+                            <IoIosArrowForward color="#14959C" size={25} />
+                        </div>
+                    </div>
                 </div>
 
             ) : (

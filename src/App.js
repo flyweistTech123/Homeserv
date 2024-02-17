@@ -24,6 +24,11 @@ import LandingPage from './Pages/LandingPage/LandingPage';
 import Home from './Pages/Home/Home.jsx';
 import Air_Conditioner from './Pages/Air Conditioner/Air_Conditioner.jsx';
 import Booking from './Pages/Booking/Booking.jsx';
+import Shopping from './Pages/Shopping/Shopping.jsx';
+import Products_shopping from './Pages/Shopping/Products_shopping.jsx';
+import Prdoct_Detail from './Pages/Shopping/Prdoct_Detail.jsx';
+import Order from './Pages/Bill & Ordere details/Order.jsx';
+import Bill from './Pages/Bill & Ordere details/Bill.jsx';
 
 
 
@@ -56,6 +61,11 @@ function App() {
           <Route path="/air_conditioner" element={<Air_Conditioner />} />
           <Route path="/home" element={<Home/>} />
           <Route path="/bookings" element={<Booking/>} />
+          <Route path="/shopping" element={<Shopping/>} />
+          <Route path="/products_shopping" element={<Products_shopping/>} />
+          <Route path="/prdoct_detail" element={<Prdoct_Detail/>} />
+          <Route path="/order" element={<Order/>} />
+          <Route path="/bill_details" element={<Bill/>} />
         </Routes>
     </Router>
   );
