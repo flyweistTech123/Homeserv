@@ -39,6 +39,8 @@ import History_Order from './Pages/History/History_Order.jsx';
 import Cancel_history from './Pages/History/Cancel_history.jsx';
 import Shoppingl_history from './Pages/History/Shoppingl_history.jsx';
 import Signup from './Pages/Signup/Signup.jsx';
+import Login from './Pages/Signup/Login.jsx';
+import OTP from './Pages/Signup/OTP.jsx';
 
 
 
@@ -87,6 +89,8 @@ function App() {
           <Route path="/cancel_history" element={<Cancel_history/>} />
           <Route path="/shoppingl_history" element={<Shoppingl_history/>} />
           <Route path="/signup" element={<Signup/>} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/otp" element={<OTP/>} />
         </Routes>
     </Router>
   );
