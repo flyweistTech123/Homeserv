@@ -13,6 +13,7 @@
   height: 50px;
   background-color: #f4f4f4;
   cursor: pointer;
+  border-radius: 34px;
 }
 .booking2 {
   /* display: flex;

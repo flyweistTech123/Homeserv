@@ -7,15 +7,6 @@ import HOC2 from '../../Components/HOC_second/HOC2'
 
 const Booking = () => {
     const [step, setStep] = useState(0);
-    const incCnt = () => {
-        setStep((prev) => prev + 1);
-    };
-    const decCnt = () => {
-        setStep((prev) => prev - 1);
-    };
-    const handlePrint = () => {
-        window.print();
-    };
 
     return (
         <>

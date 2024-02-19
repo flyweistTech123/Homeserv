@@ -17,19 +17,24 @@ const Shopping = () => {
                 <div className='shopping2'>
                     <h4>Choose your category</h4>
                     <Link to={'/products_shopping'} className='shopping4'>
-                    <div className='shopping3'>
-                        <p>Home Appliances</p>
-                        <IoIosArrowForward color='#14959C' size={25} />
-                    </div>
-                    </Link> 
-                    <div className='shopping3'>
-                        <p>Domestics Products</p>
-                        <IoIosArrowForward color='#14959C' size={25} />
-                    </div>    
-                    <div className='shopping3'>
-                        <p>Other Products</p>
-                        <IoIosArrowForward color='#14959C' size={25} />
-                    </div>
+                        <div className='shopping3'>
+                            <p>Home Appliances</p>
+                            <IoIosArrowForward color='#14959C' size={25} />
+                        </div>
+                    </Link>
+                    <Link to={'/products_shopping'} className='shopping4'>
+                        <div className='shopping3'>
+                            <p>Domestics Products</p>
+                            <IoIosArrowForward color='#14959C' size={25} />
+                        </div>
+                    </Link>
+                    <Link to={'/products_shopping'} className='shopping4'>
+                        <div className='shopping3'>
+                            <p>Other Products</p>
+                            <IoIosArrowForward color='#14959C' size={25} />
+                        </div>
+                    </Link>
+
                 </div>
             </div>
         </>

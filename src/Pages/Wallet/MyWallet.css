@@ -1,0 +1,112 @@
+.walletcontainer{
+  margin-top: 120px;
+  padding-bottom: 50px;
+}
+
+.wallet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.wallet1 {
+  width: 712px;
+  height: 200px;
+  border-radius: 12px;
+  background-color: #1eaeb6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.wallet1 h6 {
+  fontfamily: "Poppins, sans-serif";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.wallet1 p {
+  fontfamily: "Poppins, sans-serif";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 0;
+}
+
+
+.wallet2{
+  width: 324px;
+  height: 54px;
+  border-radius: 4px;
+  background-color: #14959C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.wallet2 p{
+  fontfamily: "Poppins, sans-serif";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 0;
+}
+
+
+.wallet3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wallet3 h6{
+  fontfamily: "Poppins, sans-serif";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #282929;
+  margin: 0;
+}
+
+.wallet3 p{
+  fontfamily: "Poppins, sans-serif";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #17181D80;
+  margin: 0;
+  width: 80%;
+}
+
+
+.wallet5{
+  text-align: center;
+}
+
+.wallet5 h2{
+  fontfamily: "Poppins, sans-serif";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #17181D;
+  margin: 0;
+}
+
+.wallet6 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

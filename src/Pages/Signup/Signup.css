@@ -1,0 +1,108 @@
+.signup1 {
+  background-color: #14959c;
+  width: 100%;
+  height: 100%;
+}
+
+.signup2 {
+  width: 712px;
+  height: 750px;
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+
+.signup3 {
+  width: 175px;
+  height: 142px;
+  background-color: #d9d9d9;
+  border-radius: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fontfamily: "Mulish, sans-serif";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25.1px;
+  color: #17181d;
+  margin: 0;
+}
+
+.signup4 {
+}
+
+.signup4 h3 {
+  fontfamily: "Mulish, sans-serif";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45.18px;
+  color: #14959c;
+  margin: 0;
+}
+
+.signup5 {
+  display: flex;
+}
+.signup6 {
+  /* display: flex;
+    flex-direction: column;
+    gap: 10px; */
+}
+
+.signup7 {
+  height: 60px;
+  width: 243px;
+  background-color: #14959c;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup7 p {
+  fontfamily: "Mulish, sans-serif";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25.1px;
+  color: #F9FFFF;
+  margin: 0;
+}
+
+.signup8 {
+  height: 60px;
+  width: 243px;
+  border: 1px solid #17181D;
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup8 p {
+  fontfamily: "Mulish, sans-serif";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25.1px;
+  color: #17181D;
+  margin: 0;
+}
+
+
+.signup10{
+    width: 500px;
+}
+
+
+.signup11{
+
+}
+
+.signup11 button{
+    width: 600px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: #14959C;
+    border-radius: 50px;
+    
+}

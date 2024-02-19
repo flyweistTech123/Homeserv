@@ -29,6 +29,16 @@ import Products_shopping from './Pages/Shopping/Products_shopping.jsx';
 import Prdoct_Detail from './Pages/Shopping/Prdoct_Detail.jsx';
 import Order from './Pages/Bill & Ordere details/Order.jsx';
 import Bill from './Pages/Bill & Ordere details/Bill.jsx';
+import Scan from './Pages/Scan QR/Scan.jsx';
+import Profile from './Pages/Profile/Profile.jsx';
+import MyProfile from './Pages/Profile/MyProfile.jsx';
+import MyWallet from './Pages/Wallet/MyWallet.jsx';
+import History from './Pages/History/History.jsx';
+import Servce_history from './Pages/History/Servce_history.jsx';
+import History_Order from './Pages/History/History_Order.jsx';
+import Cancel_history from './Pages/History/Cancel_history.jsx';
+import Shoppingl_history from './Pages/History/Shoppingl_history.jsx';
+import Signup from './Pages/Signup/Signup.jsx';
 
 
 
@@ -66,6 +76,17 @@ function App() {
           <Route path="/prdoct_detail" element={<Prdoct_Detail/>} />
           <Route path="/order" element={<Order/>} />
           <Route path="/bill_details" element={<Bill/>} />
+          <Route path="/scan" element={<Scan/>} />
+          <Route path="/profile" element={<Profile/>} />
+          <Route path="/myprofile" element={<MyProfile/>} />
+          <Route path="/myprofile" element={<MyProfile/>} />
+          <Route path="/mywallet" element={<MyWallet/>} />
+          <Route path="/history" element={<History/>} />
+          <Route path="/servce_history" element={<Servce_history/>} />
+          <Route path="/history_Order" element={<History_Order/>} />
+          <Route path="/cancel_history" element={<Cancel_history/>} />
+          <Route path="/shoppingl_history" element={<Shoppingl_history/>} />
+          <Route path="/signup" element={<Signup/>} />
         </Routes>
     </Router>
   );

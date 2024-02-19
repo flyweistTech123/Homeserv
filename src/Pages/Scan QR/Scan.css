@@ -1,0 +1,49 @@
+.scan{
+    margin-top: 300px;
+}
+
+.scan2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.scan3{
+    width: 450px;
+    height: 56px;
+    border-radius: 40px;
+    background-color: #006471;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.scan3 h6{
+    fontfamily: "Poppins, sans-serif";
+    font-weight: 700;
+    font-size: 16.08px;
+    line-height: 24.12px;
+    color: #FFFFFF;
+    margin: 0;
+    text-decoration: underline;
+}
+
+.scan4{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.scan4 p{
+    fontfamily: "Poppins, sans-serif";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #14959C;
+    margin: 0;
+    text-decoration: underline;
+}
