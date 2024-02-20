@@ -14,6 +14,8 @@ import img5 from '../../Images/img48.png'
 import img6 from '../../Images/img49.png'
 import img7 from '../../Images/img50.png'
 import AC_card from '../AC Services/AC_card';
+import { useNavigate } from 'react-router-dom';
+
 
 
 
@@ -29,6 +31,7 @@ const Air_Coller_Services = () => {
 
     const handleClose1 = () => setModalShow1(false);
     const handleShow1 = () => setModalShow1(true);
+    const navigate = useNavigate()
 
     return (
         <>
@@ -217,7 +220,7 @@ const Air_Coller_Services = () => {
 
                 <div className='acservice19'>
                     <button>1 item | 5000  </button>
-                    <button>View Cart</button>
+                    <button onClick={()=>navigate('/order')}>View Cart</button>
                 </div>
             </div>
 

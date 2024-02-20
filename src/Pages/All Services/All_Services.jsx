@@ -31,15 +31,16 @@ import img38 from '../../Images/img39.png'
 import img39 from '../../Images/img40.png'
 import img40 from '../../Images/img41.png'
 import img41 from '../../Images/img42.png'
+import { Link } from 'react-router-dom';
 
 const All_Services = () => {
   return (
     <>
-    <div className='acservice111'>
-      <div className='acservice112'>
+      <div className='acservice111'>
+        <div className='acservice112'>
           <h3>All Services</h3>
+        </div>
       </div>
-    </div>
       <div className='service'>
         <div className='service10'>
           <div className='service11'>
@@ -48,45 +49,56 @@ const All_Services = () => {
 
               <div class="service2">
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={35} src={img14} alt="" />
-                  </div>
+                  <Link to={'/ac_services'}>
+                    <div class="service4">
+                      <img width={35} src={img14} alt="" />
+                    </div>
+                  </Link>
 
                   <div>
                     <h6>AC Service & Repair</h6>
                   </div>
                 </div>
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={35} src={img14} alt="" />
-                  </div>
+                  <Link to={'/air_coller_services'}>
+                    <div class="service4">
+                      <img width={35} src={img14} alt="" />
+                    </div>
+                  </Link>
 
                   <div>
                     <h6>Air Cooler Repair</h6>
                   </div>
                 </div>
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={35} src={img14} alt="" />
-                  </div>
+                  <Link to={'/air_purifier'}>
+                    <div class="service4">
+                      <img width={35} src={img14} alt="" />
+                    </div>
+                  </Link>
 
                   <div>
                     <h6>Air Purifier</h6>
                   </div>
                 </div>
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={30} src={img15} alt="" />
-                  </div>
+                  <Link to={'/chimney_repair'}>
+                    <div class="service4">
+                      <img width={30} src={img15} alt="" />
+                    </div>
+                  </Link>
+
 
                   <div>
                     <h6>Chimney Repair</h6>
                   </div>
                 </div>
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={30} src={img16} alt="" />
-                  </div>
+                  <Link to={'/laptop_repair'}>
+                    <div class="service4">
+                      <img width={30} src={img16} alt="" />
+                    </div>
+                  </Link>
 
                   <div>
                     <h6>Laptop Repair</h6>
@@ -97,45 +109,56 @@ const All_Services = () => {
               </div>
               <div class="service2">
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={30} src={img17} alt="" />
-                  </div>
+                  <Link to={'/inverter_repair'}>
+                    <div class="service4">
+                      <img width={30} src={img17} alt="" />
+                    </div>
+                  </Link>
 
                   <div>
                     <h6>Inverter Repair</h6>
                   </div>
                 </div>
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={30} src={img18} alt="" />
-                  </div>
+                  <Link to={'/mixer_repair'}>
+                    <div class="service4">
+                      <img width={30} src={img18} alt="" />
+                    </div>
+                  </Link>
 
                   <div>
                     <h6>Mixer & Grinder Repair</h6>
                   </div>
                 </div>
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={35} src={img19} alt="" />
-                  </div>
+                  <Link to={'/television_repair'}>
+                    <div class="service4">
+                      <img width={35} src={img19} alt="" />
+                    </div>
+                  </Link>
+
 
                   <div>
                     <h6>Television Repair</h6>
                   </div>
                 </div>
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={25} src={img20} alt="" />
-                  </div>
+                  <Link to={'/refrigerator_repair'}>
+                    <div class="service4">
+                      <img width={25} src={img20} alt="" />
+                    </div>
+                  </Link>
 
                   <div>
                     <h6>Refrigerator Repair</h6>
                   </div>
                 </div>
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={25} src={img21} alt="" />
-                  </div>
+                  <Link to={'/Washing_Machine'}>
+                    <div class="service4">
+                      <img width={25} src={img21} alt="" />
+                    </div>
+                  </Link>
 
                   <div>
                     <h6>Washing Machine</h6>
@@ -148,27 +171,34 @@ const All_Services = () => {
 
 
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={55} src={img24} alt="" />
-                  </div>
+                  <Link to={'/water_purifier'}>
+                    <div class="service4">
+                      <img width={55} src={img24} alt="" />
+                    </div>
+                  </Link>
 
                   <div>
                     <h6>Water purifier</h6>
                   </div>
                 </div>
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={25} src={img22} alt="" />
-                  </div>
+                  <Link to={'/geyser_repair'}>
+                    <div class="service4">
+                      <img width={25} src={img22} alt="" />
+                    </div>
+                  </Link>
 
                   <div>
                     <h6>Geyser</h6>
                   </div>
                 </div>
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={35} src={img23} alt="" />
-                  </div>
+                  <Link to={'/microwave_repair'}>
+                    <div class="service4">
+                      <img width={35} src={img23} alt="" />
+                    </div>
+                  </Link>
+
 
                   <div>
                     <h6>Microwave</h6>
@@ -248,45 +278,56 @@ const All_Services = () => {
 
               <div class="service2">
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={40} src={img25} alt="" />
-                  </div>
+                  <Link to={'/bathroom_kitchen_cleaning'}>
+                    <div class="service4">
+                      <img width={40} src={img25} alt="" />
+                    </div>
+                  </Link>
 
                   <div>
                     <h6>Bathroom & Kitchen Cleaning</h6>
                   </div>
                 </div>
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={25} src={img26} alt="" />
-                  </div>
+                  <Link to={'/electrician'}>
+                    <div class="service4">
+                      <img width={25} src={img26} alt="" />
+                    </div>
+                  </Link>
 
                   <div>
                     <h6>Electrician</h6>
                   </div>
                 </div>
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={30} src={img27} alt="" />
-                  </div>
+                  <Link to={'/full_home_cleaning'}>
+
+                    <div class="service4">
+                      <img width={30} src={img27} alt="" />
+                    </div>
+                  </Link>
 
                   <div>
                     <h6>Full home Cleaning</h6>
                   </div>
                 </div>
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={30} src={img28} alt="" />
-                  </div>
+                  <Link to={'/Sofa_cleaning'}>
+                    <div class="service4">
+                      <img width={30} src={img28} alt="" />
+                    </div>
+                  </Link>
 
                   <div>
                     <h6>Sofa & Carpet Cleaning</h6>
                   </div>
                 </div>
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={25} src={img29} alt="" />
-                  </div>
+                  <Link to={'/cockroach_Control'}>
+                    <div class="service4">
+                      <img width={25} src={img29} alt="" />
+                    </div>
+                  </Link>
 
                   <div>
                     <h6>Cockroach, ant & general pest Control</h6>
@@ -297,9 +338,11 @@ const All_Services = () => {
               </div>
               <div class="service2">
                 <div className='service3'>
-                  <div class="service4">
-                    <img width={30} src={img30} alt="" />
-                  </div>
+                  <Link to={'/termite_control'}>
+                    <div class="service4">
+                      <img width={30} src={img30} alt="" />
+                    </div>
+                  </Link>
 
                   <div>
                     <h6>Termite Control</h6>

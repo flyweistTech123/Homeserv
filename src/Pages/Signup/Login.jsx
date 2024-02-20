@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Signup.css'
 import 'react-phone-number-input/style.css'
 import img84 from '../../Images/img84.png'
@@ -29,7 +29,7 @@ const Login = () => {
                                 <input type="text" placeholder='+91 Enter mobile number' />
                             </div>
                             <div className='signup11'>
-                                <button>Log IN/Sign UP</button>
+                                <button onClick={()=>navigate('/otp')}>Log in</button>
                             </div>
 
                             <div className='signup12'>
@@ -37,7 +37,7 @@ const Login = () => {
                                 <p>I agree with <span>terms & condition</span></p>
                             </div>
                             <div className='Login1'>
-                                <p>Did not have an account? <span>Sign up</span> </p>
+                                <p>Did not have an account? <span onClick={()=>navigate('/')}>Sign up</span> </p>
                             </div>
 
                             <div className='signup13'>

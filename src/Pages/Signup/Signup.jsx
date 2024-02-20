@@ -2,12 +2,13 @@ import React, { useState } from 'react'
 import './Signup.css'
 import 'react-phone-number-input/style.css'
 import img84 from '../../Images/img84.png'
+import { useNavigate } from 'react-router-dom'
 
 
 
 const Signup = () => {
     const [step, setStep] = useState(0);
-
+    const navigate = useNavigate()
     return (
         <>
             <div className='signupconatiner'>
@@ -47,7 +48,7 @@ const Signup = () => {
                                     <input type="text" placeholder='+91 Enter mobile number' />
                                 </div>
                                 <div className='signup11'>
-                                    <button>Log IN/Sign UP</button>
+                                    <button onClick={()=>navigate('/login')}>Log IN/Sign UP</button>
                                 </div>
 
                                 <div className='signup12'>
@@ -72,7 +73,7 @@ const Signup = () => {
                                     <input type="text" placeholder='+91 Enter mobile number' />
                                 </div>
                                 <div className='signup11'>
-                                    <button>Log IN/Sign UP</button>
+                                    <button onClick={()=>navigate('/login')}>Log IN/Sign UP</button>
                                 </div>
 
                                 <div className='signup12'>

@@ -1,0 +1,193 @@
+.city1{
+    background: linear-gradient(180deg, #14959C 0%, #B5D9DB 100%);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.city2{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.city2 h3{
+    fontfamily: "Inter, sans-serif";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 24px;
+    color: #17181d;
+}
+
+.city3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.city4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex: 1 0 25%; 
+    max-width: 33.33%; 
+    box-sizing: border-box; 
+    padding: 0 10px; 
+    margin-bottom: 60px; 
+    cursor: pointer;
+}
+
+.city4 h6{
+    fontfamily: "Mulish, sans-serif";
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 24px;
+    color: #17181d;
+    margin: 0;
+}
+
+.city5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.city7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.city6{
+    width: 600px;
+    height: 58px;
+    border-radius: 28px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.city6 span{
+    fontfamily: "Inter, sans-serif";
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #006471;
+    margin: 0;
+}
+
+
+
+
+.city8{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.city8 p{
+    fontfamily: "Mulish, sans-serif";
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    color: #17181d;
+    font-style: italic;
+    margin: 0;
+}
+
+.city8 h3{
+    fontfamily: "Mulish, sans-serif";
+    font-weight: 1000;
+    font-size: 24px;
+    line-height: 30px;
+    color: #17181d;
+    margin: 0;
+    font-style: italic;
+}
+
+
+.city9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.city10{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.city11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.city11 p{
+    fontfamily: "Mulish, sans-serif";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0;
+    text-align: center;
+}
+
+.city11 span{
+    fontfamily: "Mulish, sans-serif";
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0;
+}
+
+
+.city12{
+    border-top: 1px solid #00000080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+.city13{
+    border-top: 1px solid #00000080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.city13 p{
+    fontfamily: "Mulish, sans-serif";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #17181D;
+    margin: 0;
+}
+
+.custom-backdrop {
+    background-color: rgba(0, 0, 0, 0.1); /* Change the color and adjust the opacity here */
+}

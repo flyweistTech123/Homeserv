@@ -257,7 +257,7 @@ const LandingPage = () => {
                                 </div>
                             </div>
                             <div className='home21'>
-                                <Link to={'mixer_repair'}>
+                                <Link to={'/mixer_repair'}>
                                     <div class="home20">
                                         <img width={30} src={img18} alt="" />
                                     </div>

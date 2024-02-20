@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import HOC from '../../Components/HOC/HOC';
 import './AC_Services.css'
 import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
+import { useNavigate } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -32,6 +32,7 @@ const AC_Services = () => {
 
     const handleClose1 = () => setModalShow1(false);
     const handleShow1 = () => setModalShow1(true);
+    const navigate = useNavigate()
 
     return (
         <>
@@ -382,7 +383,7 @@ const AC_Services = () => {
 
                 <div className='acservice19'>
                     <button>1 item | 5000  </button>
-                    <button>View Cart</button>
+                    <button onClick={()=>navigate('/order')} >View Cart</button>
                 </div>
             </div>
 

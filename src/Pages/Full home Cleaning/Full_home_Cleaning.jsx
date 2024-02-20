@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import HOC from '../../Components/HOC/HOC';
 import Modal from 'react-bootstrap/Modal';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -29,7 +30,7 @@ const Full_home_Cleaning = () => {
 
     const handleClose1 = () => setModalShow1(false);
     const handleShow1 = () => setModalShow1(true);
-
+    const navigate = useNavigate()
     return (
         <>
             <div className='acservice111'>
@@ -946,7 +947,7 @@ const Full_home_Cleaning = () => {
 
                 <div className='acservice19'>
                     <button>1 item | 5000  </button>
-                    <button>View Cart</button>
+                    <button  onClick={()=>navigate('/order')}>View Cart</button>
                 </div>
             </div>
 

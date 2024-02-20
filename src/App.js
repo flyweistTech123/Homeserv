@@ -41,6 +41,7 @@ import Shoppingl_history from './Pages/History/Shoppingl_history.jsx';
 import Signup from './Pages/Signup/Signup.jsx';
 import Login from './Pages/Signup/Login.jsx';
 import OTP from './Pages/Signup/OTP.jsx';
+import City from './Pages/Select city/City.jsx';
 
 
 
@@ -49,7 +50,7 @@ function App() {
   return (
     <Router> 
         <Routes>
-          <Route path="/" element={<LandingPage/>} />
+          <Route path="/landingpage" element={<LandingPage/>} />
           <Route path="/all_services" element={<All_Services />} />
           <Route path="/ac_services" element={<AC_Services />} />
           <Route path="/air_coller_services" element={<Air_Coller_Services />} />
@@ -88,9 +89,10 @@ function App() {
           <Route path="/history_Order" element={<History_Order/>} />
           <Route path="/cancel_history" element={<Cancel_history/>} />
           <Route path="/shoppingl_history" element={<Shoppingl_history/>} />
-          <Route path="/signup" element={<Signup/>} />
+          <Route path="/" element={<Signup/>} />
           <Route path="/login" element={<Login/>} />
           <Route path="/otp" element={<OTP/>} />
+          <Route path="/city" element={<City/>} />
         </Routes>
     </Router>
   );

@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Signup.css'
 import 'react-phone-number-input/style.css'
-import img84 from '../../Images/img84.png'
 import { BsArrowLeft } from "react-icons/bs";
 import { useNavigate } from 'react-router-dom';
 
@@ -32,7 +31,7 @@ const OTP = () => {
                         </div>
 
                         <div className='signup11'>
-                            <button>Verify</button>
+                            <button onClick={()=>navigate('/city')}>Verify</button>
                         </div>
 
                         <div className='otp3'>
