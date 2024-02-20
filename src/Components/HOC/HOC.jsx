@@ -1,30 +1,29 @@
 /** @format */
-
 import React from "react";
 import './HOC.css'
 import Sidebar from "../Sidebar/Sidebar";
-import Upperbar from "../Upperbar/Upperbar";
+// import Upperbar from "../Upperbar/Upperbar";
 
-const HOC = (Wcomponenet) => {
-
-    return function Component() {
-        return (
-            <>
-                <div className="container1">
-                    <div className="sidebarhoc">
-                        <Sidebar />
-                    </div>
-                    <div className="content">
-                    <Wcomponenet />
-                    </div>
+const HOC = (WrappedComponent) => {
+    const Component = () => (
+        <div className="container1">
+            <div className="sidebar">
+                <Sidebar />
+            </div>
+            <div className="content">
+                {/* <Upperbar /> */}
+                <div className="child-component1">
+                    <WrappedComponent />
                 </div>
+            </div>
+        </div>
+    );
 
-            </>
-        );
-    };
+    return Component;
 };
 
 export default HOC;
+
 
 
 // <div style={{ backgroundColor: "#f2f3f8" }}>

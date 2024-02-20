@@ -96,6 +96,15 @@
     color: #ffffff;
     cursor: pointer;
     position: absolute;
+    bottom: 400px;
+}
+
+.sidebar311{
+    font-weight: 900;
+    font-size: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    position: absolute;
     bottom: 430px;
 }
 

@@ -57,7 +57,6 @@ span {
   justify-content: center;
   margin-top: 100px;
   padding-bottom: 150px;
-
 }
 
 .home6 h2 {
@@ -151,14 +150,13 @@ span {
 }
 
 .home13 {
-  width: calc(20% - 10px); 
+  width: calc(20% - 10px);
   margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   cursor: pointer;
 }
-  
 
 .home13 img {
   max-width: 100%;
@@ -175,12 +173,11 @@ span {
   padding-top: 10px;
 }
 
-
-.home14{
+.home14 {
   margin-top: 100px;
 }
 
-.home14 h2{
+.home14 h2 {
   fontfamily: "Inter, sans-serif";
   font-weight: 700;
   font-size: 28px;
@@ -189,13 +186,13 @@ span {
   text-align: center;
 }
 
-.home15{
+.home15 {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.home16{
+.home16 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -203,15 +200,15 @@ span {
   margin-top: 80px;
 }
 
-.home16 span:nth-child(1){
+.home16 span:nth-child(1) {
   fontfamily: "Inter, sans-serif";
   font-weight: 800;
   font-size: 50px;
-  color: #14939A;
+  color: #14939a;
   margin: 0;
 }
 
-.home16 span:nth-child(2){
+.home16 span:nth-child(2) {
   fontfamily: "Inter, sans-serif";
   font-weight: 500;
   font-size: 24px;
@@ -219,21 +216,19 @@ span {
   margin: 0;
 }
 
-
-.home17{
+.home17 {
   margin-top: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
-.home18{
+.home18 {
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
-.home18 h2{
+.home18 h2 {
   fontfamily: "Inter, sans-serif";
   font-weight: 700;
   font-size: 28px;
@@ -241,10 +236,6 @@ span {
   color: #000000;
   text-align: center;
 }
-
-
-
-
 
 .home19 {
   position: relative;
@@ -253,7 +244,7 @@ span {
   justify-content: space-between;
   margin-top: 80px;
 }
-.home199{
+.home199 {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -265,15 +256,13 @@ span {
   width: 69px;
   height: 69.01px;
   border-radius: 50%;
-  background-color: #ffffff; 
+  background-color: #ffffff;
   position: relative;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-
 
 .home20::before {
   content: "";
@@ -287,16 +276,15 @@ span {
   border-radius: 50%;
 }
 
-
-.home21{
-  width: calc(20% - 80px); 
+.home21 {
+  width: calc(20% - 80px);
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.home21 h6{
+.home21 h6 {
   fontfamily: "Mulish, sans-serif";
   font-weight: 800;
   font-size: 12px;
@@ -308,7 +296,80 @@ span {
   margin: auto;
 }
 
-
-.home22{
+.home22 {
   margin-top: 300px;
+}
+
+@media (max-width: 580px) {
+  .home17 img {
+    width: 100%;
+  }
+
+  .home13 {
+    width: calc(100% - 10px); /* Full width for extra small screens */
+  }
+
+  .home15 {
+    flex-direction: column;
+  }
+  .home21 {
+    width: calc(100% - 20px); /* Full width for extra small screens */
+  }
+
+  .home5 img {
+    width: 100%;
+  }
+
+  .home6 h2 {
+    font-size: 25px;
+  }
+  .home7 {
+    width: 100%;
+  }
+  .home9 input {
+    width: 100%;
+    height: 101px;
+  }
+  .home8 span {
+    font-size: 20px;
+  }
+  .home8 {
+    gap: 0px;
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .home13 {
+    width: calc(25% - 10px); /* Adjust width for smaller screens */
+  }
+  .home21 {
+    width: calc(25% - 60px); /* Adjust width for smaller screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .home12 {
+    justify-content: center; /* Center items on smaller screens */
+  }
+
+  .home13 {
+    width: calc(33.33% - 10px); /* Adjust width for smaller screens */
+  }
+  .home21 {
+    width: calc(33.33% - 40px); /* Adjust width for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .home12 {
+    margin-top: 50px; /* Reduce top margin for smaller screens */
+  }
+
+  .home13 {
+    width: calc(50% - 10px); /* Adjust width for smaller screens */
+  }
+  .home21 {
+    width: calc(50% - 30px); /* Adjust width for smaller screens */
+  }
 }

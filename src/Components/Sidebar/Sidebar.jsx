@@ -6,8 +6,9 @@ import { MdOutlineQrCodeScanner } from "react-icons/md";
 import { IoPerson } from "react-icons/io5";
 import { BsArrowLeft } from "react-icons/bs";
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-
 import './Sidebar.css';
+import { RxHamburgerMenu } from "react-icons/rx";
+
 
 const Sidebar = () => {
     const navigate = useNavigate();
@@ -28,8 +29,11 @@ const Sidebar = () => {
     return (
         <div className='sidebar'>
             <div className='sidenar4'>
+                {/* <div className='sidebar311'>
+                    <RxHamburgerMenu  onClick={toggleSidebar} />
+                </div> */}
                 <div className='sidebar31'>
-                    <BsArrowLeft onClick={() => navigate(-1)} /> 
+                    <BsArrowLeft onClick={() => navigate(-1)} />
                 </div>
                 <ul>
                     {navItems.map((item, index) => (

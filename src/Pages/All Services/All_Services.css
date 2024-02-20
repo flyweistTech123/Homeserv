@@ -1,6 +1,6 @@
 .service {
   margin-top: 120px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 
 
@@ -9,20 +9,23 @@
 
 .service10{
     display: flex;
-    gap: 300px;
+    justify-content: space-between;
 }
 
 .service11{
     width: 50%;
+    /* border: 1px solid; */
 }
 
 .service12{
-    width: 50%;
+    width: 40%;
+    /* border: 1px solid ; */
 }
 
 
 .service1 {
-  margin-top: 30px;
+  margin-top: 20px;
+
 }
 
 .service1 h2 {
@@ -31,6 +34,7 @@
   font-size: 16px;
   line-height: 24px;
   color: #282929;
+  margin: 0;
 }
 
 .service2 {
@@ -72,10 +76,11 @@
 }
 
 .service3 {
-  margin-bottom: 0px;
+  margin-bottom: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 5px;
 }
 
 .service3 h6 {
@@ -84,10 +89,9 @@
   font-size: 12px;
   line-height: 15px;
   color: #282929;
-  width: 95%;
-  margin: auto;
+  margin: 0;
+  width: 96%;
   text-align: center;
-  margin-top: 5px
 }
 
 

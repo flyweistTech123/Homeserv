@@ -20,7 +20,7 @@
 } */
 
 
-.hoc{
+/* .hoc{
   display: flex;
   gap: 30px;
   background: #FFFFFF;
@@ -52,10 +52,36 @@
   width: 130px; 
   flex-shrink: 0; 
   overflow-y: auto; 
-}
+} */
 
 .content {
   flex-grow: 1; 
   overflow-y: auto; 
+}
+
+.container1 {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 120px; 
+  flex: 0 0 auto; 
+}
+
+.content {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+}
+
+.child-component1{
+  flex: 1;
+  padding: 20px;
+  padding-top: 0;
+}
+
+.upperbar {
+  padding: 10px; 
 }
 

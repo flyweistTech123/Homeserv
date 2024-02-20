@@ -110,7 +110,9 @@ const AC_Services = () => {
 
 
                     <div className='acservice13'>
-                        <img width={56} src={img6} alt="" onClick={() => setShow(!show)} />
+                        <div className='acservice1355'>
+                            <img width={56} src={img6} alt="" onClick={()=>setShow(!show)} />
+                        </div>
                         {show && (
                             <div className='acservice22'>
                                 <div className='acservice20'>
@@ -383,7 +385,7 @@ const AC_Services = () => {
 
                 <div className='acservice19'>
                     <button>1 item | 5000  </button>
-                    <button onClick={()=>navigate('/order')} >View Cart</button>
+                    <button onClick={() => navigate('/order')} >View Cart</button>
                 </div>
             </div>
 

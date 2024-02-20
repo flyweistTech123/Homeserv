@@ -104,8 +104,6 @@ const All_Services = () => {
                     <h6>Laptop Repair</h6>
                   </div>
                 </div>
-
-
               </div>
               <div class="service2">
                 <div className='service3'>

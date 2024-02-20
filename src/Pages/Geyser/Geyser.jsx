@@ -108,7 +108,9 @@ const Geyser = () => {
 
 
                     <div className='acservice13'>
-                        <img width={56} src={img6} alt="" onClick={() => setShow(!show)} />
+                        <div className='acservice1355'>
+                            <img width={56} src={img6} alt="" onClick={()=>setShow(!show)} />
+                        </div>
                         {show && (
                             <div className='acservice22'>
                                 <div className='acservice20'>
