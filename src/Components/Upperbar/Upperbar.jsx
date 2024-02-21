@@ -3,6 +3,7 @@ import './Upperbar.css'
 import { FaFilter } from "react-icons/fa";
 import { IoMdSearch } from "react-icons/io";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 
 
@@ -12,12 +13,18 @@ import img1 from '../../Images/img53.png'
 import img2 from '../../Images/img54.png'
 import img3 from '../../Images/img55.png'
 
-const Upperbar = () => {
+const Upperbar = ({ show, toggleSidebar }) => {
     return (
         <>
             <div className='upperbar1'>
 
                 <div className='upperbar9'>
+
+                    {!show &&
+                        <div className='upperbar10'>
+                            <RxHamburgerMenu onClick={toggleSidebar} />
+                        </div>
+                    }
                     <div className='upperbar2'>
                         <div>
                             <IoMdSearch size={18} />

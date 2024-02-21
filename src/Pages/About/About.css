@@ -1,0 +1,145 @@
+.aboutnav{
+    width: 100%;
+    height: 100px;
+    background-color: #14959C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutnav h2{
+    fontfamily: "Poppins, sans-serif";
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.about{
+    width: 90%;
+    margin: auto;
+}
+
+.about1{
+    display: flex;
+    align-items: center;
+    margin-top:80px;
+}
+
+
+.about2{
+    width: 50%;
+}
+.about2 img{
+    width: 100%;
+}
+
+.about3{
+    width: 50%;
+}
+
+.about3 h2{
+    fontfamily: "Poppins, sans-serif";
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    color: #000000;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.about3 h6{
+    color: #575f65;
+    line-height: 28px;
+    margin-top:24px;
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+.about3 p{
+    fontfamily: "Poppins, sans-serif";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #575f65;
+    letter-spacing: .4px;
+    margin: 0;
+    margin-top: 25px;
+    width: 90%;
+    margin-left: 50px;
+}
+
+.about4{
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+.about4 h2{
+    fontfamily: "Poppins, sans-serif";
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    color: #000000;
+    margin: 0;
+}
+
+
+.about4 p{
+    fontfamily: "Poppins, sans-serif";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #000000;
+    letter-spacing: .01875rem;
+    margin: 0;
+    width: 48%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px!important;
+}
+
+.about5{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.about6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about7{
+
+}
+.about7 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.about8{
+
+}
+
+.about8 h4{
+    color: #000000;
+    line-height: 42px;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.about8 p{
+    color: #15939a;
+    line-height: 32px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}

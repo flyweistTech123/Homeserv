@@ -42,6 +42,7 @@ import Signup from './Pages/Signup/Signup.jsx';
 import Login from './Pages/Signup/Login.jsx';
 import OTP from './Pages/Signup/OTP.jsx';
 import City from './Pages/Select city/City.jsx';
+import About from './Pages/About/About.jsx';
 
 
 
@@ -93,6 +94,7 @@ function App() {
           <Route path="/login" element={<Login/>} />
           <Route path="/otp" element={<OTP/>} />
           <Route path="/city" element={<City/>} />
+          <Route path="/about" element={<About/>} />
         </Routes>
     </Router>
   );

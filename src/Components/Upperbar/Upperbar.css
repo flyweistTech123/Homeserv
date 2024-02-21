@@ -61,6 +61,7 @@
     line-height: 15.06px;
     color: #17181D80;
     margin: 0;
+    background-color: transparent;
 
 }
 
@@ -120,4 +121,63 @@
     line-height: 17.61px;
     color: #17181D;
     margin: 0;
+}
+
+
+.upperbar10{
+    font-size: 30px;
+    color: #282929;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .upperbar9{
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .upperbar1{
+        height: auto;
+        padding-left: 5px;
+        padding-top: 10px;
+    }
+    .upperbar9{
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        align-items: self-start;
+        padding-bottom: 10px;
+        gap: 10px;
+    }
+    .upperbar2{
+        width: auto;
+        height: auto;
+    }
+
+    .upperbar2 input{
+        width: 100%;
+    }
+    .upperbar3{
+        width: auto;
+        /* height: auto; */
+        padding: 5px;
+    }
+
+    .upperbar4{
+        /* flex-direction: column; */
+        gap: 10px;
+    }
+    .upperbar6 span{
+        font-size: 15px;
+    }
+    .upperbar7{
+        width: auto;
+        height: auto;
+    }
+    .upperbar7 p{
+        font-size: 10px;
+    }
 }

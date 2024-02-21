@@ -36,7 +36,7 @@ const Home = () => {
         </div>
         <div className='landingpagecontainer'>
           <div className='landingpage2'>
-            <div>
+            <div className='landingpage278'>
               <img src={img} alt="" />
             </div>
 

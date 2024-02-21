@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <linearGradient id="93i8hzamoa" x1="113.222%" x2="17.376%" y1="-18.911%" y2="100%">
+            <stop offset="0%" stop-color="#8524E8"/>
+            <stop offset="54.185%" stop-color="#FF008B"/>
+            <stop offset="100%" stop-color="#FFC400"/>
+            <stop offset="100%" stop-color="#FFC400"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <path fill="url(#93i8hzamoa)" d="M18 36C8.06 36 0 27.941 0 18S8.06 0 18 0s18 8.059 18 18-8.06 18-18 18z" transform="translate(-279 -4810) translate(0 4499) translate(151 100) translate(0 5) translate(0 206) translate(128)"/>
+                                <g fill="#FFF" fill-rule="nonzero">
+                                    <path d="M11.52 0H4.392C1.97 0 0 1.97 0 4.391v7.13c0 2.42 1.97 4.39 4.391 4.39h7.13c2.42 0 4.39-1.97 4.39-4.39V4.39c0-2.421-1.97-4.391-4.39-4.391zm2.98 11.52c0 1.643-1.337 2.98-2.98 2.98H4.392c-1.643 0-2.98-1.337-2.98-2.98V4.392c0-1.643 1.337-2.98 2.98-2.98h7.13c1.642 0 2.979 1.337 2.979 2.98v7.13z" transform="translate(-279 -4810) translate(0 4499) translate(151 100) translate(0 5) translate(0 206) translate(128) translate(10 10)"/>
+                                    <path d="M7.956 3.856c-2.26 0-4.1 1.84-4.1 4.1s1.84 4.1 4.1 4.1 4.1-1.84 4.1-4.1-1.84-4.1-4.1-4.1zm0 6.788c-1.482 0-2.688-1.206-2.688-2.688 0-1.482 1.206-2.688 2.688-2.688 1.482 0 2.688 1.206 2.688 2.688 0 1.482-1.206 2.688-2.688 2.688zM12.228 2.659c-.272 0-.54.11-.731.303-.193.192-.304.46-.304.732 0 .272.11.54.304.732.192.192.459.304.73.304.274 0 .54-.112.733-.304.193-.192.303-.46.303-.732 0-.273-.11-.54-.303-.732-.192-.193-.46-.303-.732-.303z" transform="translate(-279 -4810) translate(0 4499) translate(151 100) translate(0 5) translate(0 206) translate(128) translate(10 10)"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

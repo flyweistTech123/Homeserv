@@ -7,10 +7,11 @@ import { IoPerson } from "react-icons/io5";
 import { BsArrowLeft } from "react-icons/bs";
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import './Sidebar.css';
-import { RxHamburgerMenu } from "react-icons/rx";
+import { IoMdClose } from "react-icons/io";
 
 
-const Sidebar = () => {
+
+const Sidebar = ({ toggleSidebar }) => {
     const navigate = useNavigate();
     const location = useLocation();
 
@@ -28,31 +29,27 @@ const Sidebar = () => {
 
     return (
         <div className='sidebar'>
-            <div className='sidenar4'>
-                {/* <div className='sidebar311'>
-                    <RxHamburgerMenu  onClick={toggleSidebar} />
-                </div> */}
-                <div className='sidebar31'>
-                    <BsArrowLeft onClick={() => navigate(-1)} />
-                </div>
-                <ul>
-                    {navItems.map((item, index) => (
-                        <li
-                            key={index}
-                            className={isActive(item.link) ? 'active' : ''}
-                        >
-                            <Link to={item.link} className='sidebar-link'>
-                                <div className='sidebar2'>
-                                    {item.icon}
-                                </div>
-                                <div className='sidebar10'>
-                                    {item.text}
-                                </div>
-                            </Link>
-                        </li>
-                    ))}
-                </ul>
+            <div className='sidebar-icons'>
+                <IoMdClose className='hamburger-icon' onClick={toggleSidebar} />
+                <BsArrowLeft className='arrow-icon' onClick={() => navigate(-1)} />
             </div>
+            <ul>
+                {navItems.map((item, index) => (
+                    <li
+                        key={index}
+                        className={isActive(item.link) ? 'active' : ''}
+                    >
+                        <Link to={item.link} className='sidebar-link'>
+                            <div className='sidebar-icon'>
+                                {item.icon}
+                            </div>
+                            <div className='sidebar-text'>
+                                {item.text}
+                            </div>
+                        </Link>
+                    </li>
+                ))}
+            </ul>
         </div>
     );
 };

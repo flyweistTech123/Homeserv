@@ -306,14 +306,14 @@ span {
   }
 
   .home13 {
-    width: calc(100% - 10px); /* Full width for extra small screens */
+    width: calc(100% - 10px);
   }
 
   .home15 {
     flex-direction: column;
   }
   .home21 {
-    width: calc(100% - 20px); /* Full width for extra small screens */
+    width: calc(100% - 20px);
   }
 
   .home5 img {
@@ -341,35 +341,60 @@ span {
 /* Responsive styles */
 @media (max-width: 1200px) {
   .home13 {
-    width: calc(25% - 10px); /* Adjust width for smaller screens */
+    width: calc(25% - 10px);
   }
   .home21 {
-    width: calc(25% - 60px); /* Adjust width for smaller screens */
+    width: calc(25% - 60px);
   }
 }
 
 @media (max-width: 992px) {
+  .home5 img {
+    width: 100%;
+  }
+  .home6 h2 {
+    font-size: 30px;
+  }
+  .home7 {
+    width: 100%;
+  }
+  .home9 input {
+    width: 100%;
+    height: 101px;
+  }
+  .home8 span {
+    font-size: 20px;
+  }
+  .home8 {
+    gap: 0px;
+  }
+  .home17 img {
+    width: 100%;
+  }
   .home12 {
-    justify-content: center; /* Center items on smaller screens */
+    justify-content: center;
   }
 
   .home13 {
-    width: calc(33.33% - 10px); /* Adjust width for smaller screens */
+    width: calc(33.33% - 10px);
   }
   .home21 {
-    width: calc(33.33% - 40px); /* Adjust width for smaller screens */
+    width: calc(33.33% - 40px);
+  }
+  .home199 {
+    gap: 0px;
   }
 }
 
 @media (max-width: 768px) {
   .home12 {
-    margin-top: 50px; /* Reduce top margin for smaller screens */
+    margin-top: 50px;
   }
 
   .home13 {
-    width: calc(50% - 10px); /* Adjust width for smaller screens */
+    width: calc(50% - 10px);
   }
   .home21 {
-    width: calc(50% - 30px); /* Adjust width for smaller screens */
+    width: calc(50% - 30px);
   }
 }
